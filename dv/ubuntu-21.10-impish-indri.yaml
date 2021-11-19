@@ -1,0 +1,12 @@
+apiVersion: cdi.kubevirt.io/v1beta1
+kind: DataVolume
+metadata:
+  name: ubuntu-21.10-impish-indri
+spec:
+  source:
+    http:
+      url: https://cloud-images.ubuntu.com/impish/current/impish-server-cloudimg-amd64.img
+  storage:
+    resources:
+      requests:
+        storage: 10Gi
