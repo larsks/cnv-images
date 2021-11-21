@@ -3,5 +3,6 @@ kind: Kustomization
 namespace: openshift-virtualization-os-images
 resources:
 - dv/centos-8-stream.yaml
+- dv/centos-8.4.yaml
 - dv/fedora-35.yaml
 - dv/ubuntu-21.10-impish-indri.yaml
